@@ -1,0 +1,391 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.conteinar{
+    width: 1140px;
+    height: 100%;
+    margin: 0 auto;
+}
+.navber{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 33px 0px 28px 0px;
+}
+.manu-list{
+    display: flex;
+}
+.manu-list li{
+    list-style-type: none;
+}
+.manu-list li a{
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+    font-family: 'Inter', sans-serif;
+    font-weight: 500;
+    transition: 2s all ease;
+}
+.manu-list li a:hover{
+    color: #5956E8;
+    transition: 1s all ease;
+}
+.manu-l{
+    padding-left:55px;
+}
+.nav-b-btn{
+    padding: 13px 23px;
+    font-size: 20px;
+    background-color:#5956E8;
+}
+.nav-b-btn{
+    color: #fff;
+    font-size: 18px;
+    border: none;
+    border-radius: 10px;
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+}
+
+/* banner section start */
+#banner{
+    background-color: #5956E8;
+    height: 750px;
+    align-items: center;
+}
+.main-banner{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 100%;
+}
+.banner-h1 h1{
+    color: #FFFEFE;
+    font-family: 'Inter', sans-serif;
+    font-size: 65px;
+    font-style: normal;
+    font-weight: 700;
+    line-height: 80px; 
+}
+.banner-p{
+    padding-top: 25px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 27px; 
+}
+.banner-btn{
+    padding-top: 30px;
+}
+.banner-l-btn{
+    padding: 13px 23px;
+    background-color: #fff;
+    color: #5956E8;
+    border-radius: 8px;
+    border: 1px solid #5956E8;
+    font-size: 18px;
+    font-weight:500;
+    font-family: 'Inter', sans-serif;
+    cursor: pointer;
+
+}
+
+/* <<<<<<<<<<<<<>>>>>>>>>>> services section start <<<<<<<<<<<<<s>>>>>>>> */
+
+.service-head{
+    padding-top: 107px;
+    text-align: center;
+}
+.service-head h1{
+    color: #181818;
+    font-size: 40px;
+    font-weight: 700;
+    font-family: 'Inter', sans-serif;
+}
+.service-head-p{
+padding-top: 20px;
+}
+.service-head-p p{
+    color: rgba(24, 24, 24, 0.70);
+    font-family: 'Inter', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 30px;
+}
+
+.main-service-card{
+    padding-top: 50px;
+    display: grid;
+    grid-template-columns:repeat(3,1fr);
+    gap: 30px;
+}
+.servicr-card{
+    width: 370px;
+    height: 385px;
+    box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+    background: #FFF;
+    padding: 63px 24px 63px 48px;
+}
+.icon-card{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 71px;
+    height: 71px;
+    border: 1px solid #5956E8;
+    border-radius: 5px;
+}
+.service-card-head{
+    margin-top: 30px;
+}
+.service-card-head h1{
+    font-size: 25px;
+    font-weight: 700px;
+    color: #181818;
+    font-family: 'Inter', sans-serif;
+}
+.service-card-head p{
+    padding-top: 20px;
+    color: rgba(24, 24, 24, 0.70);
+    font-family: 'Inter', sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 28px;
+    text-align: justify;
+}
+
+/* new section start */
+.protfolio-manu{
+    padding-top: 30px;
+    width: 800px;
+    height: 100%;
+    margin: 0 auto;
+    position: relative;
+}
+.protfolio-list{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px;
+    background-color:#5956E80D;
+    list-style: none;
+    border-radius: 8px;
+   
+}
+.protfolio-list a{
+    text-decoration: none;
+    color:black;
+    font-size:20px;
+    font-weight: 600;
+    font-family: 'Inter', sans-serif;
+}
+.h{
+    width: 195px;
+    height: 4px;
+    background-color:#5956E8;
+    position: absolute;
+    top:30px;
+    left: 80px;
+}
+.img-card{
+    margin-top: 50px;
+    display: grid;
+    gap: 30px;
+    grid-template-columns: repeat(4,1fr);
+}
+.cmn-img{
+    position: relative;
+    transition: 1 all ease-in-out;
+}
+.img-dtails h2{
+    font-size: 20px;
+    text-align: center;
+    padding-top:20px;
+    line-height: 20px;
+    color: #FFF;
+    font-family: 'Inter', sans-serif;
+}
+
+.img-dtails{
+    width: 230px;
+    height: 113px;
+    background: #5956E8;
+    border-radius: 8px;
+    position: absolute;
+    left: 19px;
+    bottom: 20px;
+    display: none;
+    
+}
+.cmn-img:hover .img-dtails{
+    display: block;
+    transition: 1 all ease-in-out;
+}
+
+
+/* two card Section start */
+
+.main-two-card{
+    width: 300px;
+    padding-top: 50px;
+    position: relative;
+}
+.two-card img{
+    width: 100%;
+}
+.card-text{
+    position: absolute;
+    bottom:10%;
+
+
+    width: 80%;
+    height: 80px;
+    background: #5956E8;
+    border-radius: 8px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>
+       Responsiv start................
+<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<<
+>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>>> */
+
+@media only screen and (min-width:300px)and (max-width: 600px){
+    .conteinar{
+        width: 100%;
+    }
+    .navber{
+        display: flex;
+        flex-direction: column;
+    }
+    .logo img{
+        display: none;
+    }
+    .manu-list{
+        display: flex;
+        flex-direction: column;
+        gap: 15px;
+    }
+    .manu-list li a{
+        font-size: 16px;
+    }
+    .manu-l{
+        padding-left:0;
+    }
+    .nav-b-btn{
+        margin-top: 18px;
+        font-size: 12px;
+    }
+    #banner{
+        height:100%;
+    }
+    .main-banner{
+        display: flex;
+        flex-direction: column-reverse;
+    }
+    .banner-h1 h1{
+        font-size: 18px;
+        line-height: 30px; 
+        text-align: center;
+    }
+    .banner-right img{
+        width: 270px;
+        height: 240px;
+        margin: 10px ;
+    }
+    .banner-p{
+        padding: 15px;
+        font-size: 12px;
+        line-height:15px;
+        align-items: center;
+    }
+    .banner-btn{
+        padding-top: 15px;
+        text-align: center;
+    }
+    .banner-l-btn{
+        font-size: 14px;
+        padding: 10px 15px;
+    }
+    .service-head h1{
+        font-size:26px;
+    }
+    .service-head-p p{
+        font-size: 14px;
+        line-height: 20px;
+        padding: 10px;
+    }
+    .main-service-card{
+        padding-top:30px;
+        display: grid;
+        grid-template-columns: repeat(1,1fr);
+        margin: 10px;
+    }
+    .servicr-card{
+        width:100%;
+        height:100%;
+        box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 24px;
+        background: #FFF;
+        padding: 33px 44px 28px 28px;
+    }
+    .icon-card{
+        width: 60px;
+        height: 60px;
+        border: 1px solid #5956E8;
+        border-radius: 5px;
+    }
+    .service-card-head h1{
+        font-size: 18px;
+    }
+    .service-card-head p{
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 28px;
+    }
+    .protfolio-manu{
+        padding-top: 30px;
+        width: 100%;
+        height: 100%;
+       
+    }
+    .protfolio-list{
+        display: flex;
+        flex-direction: column;
+        justify-content: none;
+        text-align: center;
+    }
+    .protfolio-list a{
+        font-size:16px;
+        font-weight: 400;
+        line-height: 30px;    
+    }
+    .h{
+        left:52px;
+    }
+    .img-card{
+        grid-template-columns: repeat(1,1fr);
+        margin:20px;
+    }
+    .img-dtails h2{
+        font-size: 14px;
+    }
+}
