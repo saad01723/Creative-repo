@@ -234,25 +234,29 @@ padding-top: 20px;
 
 .main-two-card{
     width: 300px;
-    padding-top: 50px;
+    margin-top: 50px;
     position: relative;
+    overflow:hidden ;
+
 }
 .two-card img{
     width: 100%;
 }
 .card-text{
     position: absolute;
-    bottom:10%;
-
-
+    bottom: 10%;
+    left:-100%;
+    background-color: #6c69f8;
+    height: 75px;
     width: 80%;
-    height: 80px;
-    background: #5956E8;
-    border-radius: 8px;
+    text-align: center;
+    transform: translateX(-50%);
+    border-radius: 10px;
 }
-
-
-
+.main-two-card:hover .card-text{
+    left: 50%;
+    
+}
 
 
 
